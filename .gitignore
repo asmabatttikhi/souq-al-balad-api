@@ -1,0 +1,6 @@
+bin/
+obj/
+ads.db
+.vscode/
+*.user
+*.suo
