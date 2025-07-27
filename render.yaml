@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: souq-al-balad-api
+    runtime: dotnet
+    repo: https://github.com/YOUR_USERNAME/souq-al-balad-api
+    branch: main
+    buildCommand: dotnet build
+    startCommand: dotnet AdsApiSQLite_NET8.dll
+    publishPath: bin/Release/net8.0/publish
+    autoDeploy: true
