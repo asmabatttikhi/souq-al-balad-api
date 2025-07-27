@@ -2,7 +2,7 @@ services:
   - type: web
     name: souq-al-balad-api
     runtime: dotnet
-    repo: https://github.com/YOUR_USERNAME/souq-al-balad-api
+    repo: https://github.com/asmabatttikhi/souq-al-balad-api-backend
     branch: main
     buildCommand: dotnet build
     startCommand: dotnet AdsApiSQLite_NET8.dll
